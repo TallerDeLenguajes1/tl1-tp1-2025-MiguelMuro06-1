@@ -1,0 +1,10 @@
+ignorado.txt
+#¿Por qué es conveniente? Evita subir archivos basura, ejecutables pesados o configuraciones locales que no son parte del código.
+
+#¿Cuándo se hace? Al inicio del proyecto.
+
+#¿Cómo se configura? Se listan los nombres de archivos o patrones (usando asteriscos) que queremos que Git ignore.
+
+*.exe #(Para no subir los archivos que compilas).
+
+.vscode/
