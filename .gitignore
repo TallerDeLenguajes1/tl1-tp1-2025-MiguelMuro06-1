@@ -1,3 +1,10 @@
+# 1. Regla específica del TP: ignorar este archivo
 ignorado.txt
-*.exe 
-.vscode/1
+
+# 2. Reglas para C: ignorar los ejecutables que se crean al compilar
+*.exe
+*.o
+*.out
+
+# 3. Reglas para VS Code: ignorar configuraciones locales
+.vscode/
