@@ -15,4 +15,12 @@ sobre el codigo misterio:
 
 ejecutar_procesamiento (antes procesar_enigma):Es la función encargada de llamar a las tres funciones anteriores en el orden correcto.
 
-sobre el codigo sin funcionar: 1ro no estaba la biblioteca y por ende no andaban las funciones printf y scanf asi que tuve que ponerla y empezaron a leer. lo 2do es que varias lineas no tenian punto y coma, dandome error en las lineas que seguian. y el 3er y ultimo error es que no estaba el "&" en la variable1 y no se guarda el valor y el programa seguia pero no andaba 
+sobre el codigo sin funcionar: 1ro no estaba la biblioteca y por ende no andaban las funciones printf y scanf asi que tuve que ponerla y empezaron a leer. lo 2do es que varias lineas no tenian punto y coma, dandome error en las lineas que seguian. y el 3er y ultimo error es que no estaba el "&" en la variable1 y no se guarda el valor y el programa seguia pero no andaba
+
+## Respuestas Ejercicio 4
+
+**¿A qué se debe que los apartados 2 y 3 den el mismo resultado?**
+Se debe a que el puntero almacena como valor la dirección de memoria de la variable a la que apunta. Por lo tanto, imprimir el valor del puntero (punto 2) y la dirección de la variable (punto 3) es mostrar la misma ubicación física en la memoria RAM.
+
+**¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué?**
+En el punto 4 se obtiene la dirección de memoria del propio puntero. **No es igual** a los anteriores. Esto sucede porque el puntero es, en sí mismo, una variable que necesita su propio espacio en la memoria para guardar la dirección de otra variable. Por lo tanto, tiene su propia dirección de memoria única.
